@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pjodd : table of nodes</title>
+    <!-- <link type="text/css" rel="stylesheet" href="graph.css"/> -->
+    <style>
+      table {
+        white-space: nowrap;
+        border-collapse: collapse;
+      }
+      thead {
+      }
+      th {
+        font-weight: normal;
+      }
+
+      th:hover {
+        background-color: #aaa;
+      }
+
+      th, td {
+        border: 1px solid black;
+        padding: 0 3px 0 3px;
+      }
+      td.monospace {
+        font-family: monospace;
+      }
+      td.right {
+        text-align: right;
+      }
+      td.center {
+        text-align: center;
+      }
+      tr:nth-child(even) { background: #cbcbcb; }
+      tr:nth-child(odd) { background: #e0e0e0; }
+    </style>
+  </head>
+  <body>
+    <header>
+    </header>
+    <div id="table"></div>
+    <script type="text/javascript" src="nodes.js"></script>
+  </body>
+</html>

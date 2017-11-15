@@ -1,0 +1,63 @@
+
+body, svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+body {
+  background-color: #d0d0d0;
+}
+
+header {
+  font-size: 0.8rem;
+}
+
+g.node circle {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+g.node text {
+  font-size: 0.8rem;
+}
+
+g.node text.desc, .desc {
+  fill:  purple;
+  color: purple;
+  font-size: 0.8rem;
+}
+
+g.node text.offline, .offline {
+  fill:  #e54040;
+  color: #e54040;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+g.node text.clients, .clients {
+  fill:  #e56500;
+  color: #e56500;
+  font-weight: bold;
+}
+
+line.link {
+  stroke-opacity: .6;
+}
+
+line.link.fastd, .fastd {
+  stroke: green;
+  color:  green;
+}
+line.link.wireless, .wireless {
+  stroke: blue;
+  color:  blue;
+}
+
+.ontop {
+  z-index: 255;
+  position: relative;
+}
