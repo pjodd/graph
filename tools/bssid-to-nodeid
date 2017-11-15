@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# node_id is based on the actual, original MAC of the device, typically found
+# on the bottom sticker.
+# https://gluon.readthedocs.io/en/v2017.1.x/dev/mac_addresses.html
+
+bssid="$1"
+if [ -z "$bssid" ]; then
+  echo "gimme mac/bssid as observed with wifianalyzer (skipping colons is fine)"
+  exit 1
+fi
+
+bssid=$(printf "$bssid" | tr -d :)
+
+wifimac=$(printf "%X" $(( 0x$bssid + 1 )) | sed -e "s/\(..\)/\L\1:/g" -e "s/:$//")
+
+curl -s http://gateway-01.mesh.pjodd.se/hopglass/nodes.json  \
+ | jq '.nodes[] | select(.nodeinfo.network.mesh.bat0.interfaces.wireless[]=="'$wifimac'")' \
+ | jq -r '.nodeinfo.node_id'
