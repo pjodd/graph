@@ -22,8 +22,8 @@ var descs = {
   "c025e9a84c8a": "fisk.cykel",
   "c025e999e6e4": "fisk.istanb?",
   "18d6c72a0ecc": "martin.nets",
-  "18d6c72a0a04": "martin.chok",
-  "18d6c72a0196": "martin.akut",
+  "18d6c72a0a04": "martin.akut",
+  "18d6c72a0196": "martin.choklad",
   "18d6c72a1008": "kami",
   "8416f92a6f18": "söfö.danne",
   "18d6c72a08e0": "söfö.justnu", // ? black ink tattoo?
