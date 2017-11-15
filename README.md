@@ -32,5 +32,5 @@ numerically 1 smaller than what is found in nodes.json. From #gluon:
 wifianalyzer_MAC + 1 = wireless_mesh0_MAC
 
 There is a tool for doing that, and finding the node_id (used for adding
-descriptions in `lib-descs.js`): `tools/bssid-to-nodeid`
+descriptions in [lib-descs.js](lib-descs.js)): [tools/bssid-to-nodeid](tools/bssid-to-nodeid)
 
