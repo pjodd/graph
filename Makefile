@@ -31,7 +31,7 @@ $(BUILDDIR)/%.css: %.css
 	cp -a $< $@
 
 $(BUILDDIR)/%.js: $(LIBJS) %.js
-	cat $^ >$@
+	cat $^ | grep -v "^[[:space:]]*//" >$@
 
 # https://www.gnu.org/software/make/manual/make.html#Static-Pattern
 $(addprefix $(BUILDDIR)/,$(ASSETS)): $(BUILDDIR)/%: %
