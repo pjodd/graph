@@ -13,7 +13,7 @@ numerically 1 smaller than what is found in nodes.json. From #gluon:
     (the AP interface in br-client) 110537 <@neoraider> quite, see
     http://gluon.readthedocs.io/en/v2017.1.x/dev/mac_addresses.html
 
-wifianalyzer—MAC + 1 = wireless—mesh0—MAC
+wifianalyzer_MAC + 1 = wireless_mesh0_MAC
 
 # TODO
 

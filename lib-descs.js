@@ -1,3 +1,10 @@
+
+// These are node_ids, as found in samples/graph.json
+// (samples/graph_readable.json). If you're looking up MAC/BSSIDS using
+// Wifianalyser, add 1 to the MAC (see README.md) and find this as "id" in
+// graph.json to get hold of the node_id. Then stuff node_id along with
+// description in here.
+
 var descs = {
   "18d6c72a0cc4": "daniel",
   "18d6c7453ec4": "möllan.lulle",
