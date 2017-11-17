@@ -32,7 +32,10 @@ var descs = {
   "18d6c7453e5c": "triang.gabi2",
   "8416f9ae6650": "triang.håkan",
   "18a6f7f046c2": "pontus",
-  "8416f92db8a0": "inkonskintattoo",
+  "8416f92db8a0": "inkonskintattoo", //2e6f312f66f0
+  "18d6c72a08e0": "justnu", //1627ed37c610
+  "8416f92a6f18": "daniel?", //8416f92a6f18
+  "18d6c72a0b30": "triangelnstobak", //2262d1f72478
 };
 
 function getnodedesc(nodeid) {
