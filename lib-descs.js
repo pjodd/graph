@@ -14,9 +14,9 @@ var descs = {
   "18a6f7f04eae": "kalle",
   "18d6c72a100a": "claesg-sofiel", // mot fiskart
   "8416f92db85a": "canyon",
+  "8416f92daa8e": "fisk.beauty-r",
   "c025e9a84c8a": "fisk.cykelson",
   "c025e999e6e4": "fisk.istanb?",
-  "8416f92daa8e": "fisk.salongfisk",
   "c025e999ea9a": "fisk.thaithai1",
   "c025e999e6ea": "fisk.thaithai2",
 
