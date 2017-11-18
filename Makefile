@@ -1,7 +1,7 @@
 
 OBJS=index.html graph.html graph.css graph.js nodes.html nodes.js
 LIBJS=lib-descs.js lib-funcs.js
-ASSETS=d3.min.js
+ASSETS=d3.min.js p.png
 
 BUILDDIR=build
 
