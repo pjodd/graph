@@ -13,7 +13,7 @@ var descs = {
 
   "18a6f7f04eae": "kalle",
   "18d6c72a100a": "claesg-sofiel", // mot fiskart
-  "8416f92db85a": "canyon",
+  "8416f92db85a": "sofiel.canyon",
   "8416f92daa8e": "fisk.beauty-r",
   "c025e9a84c8a": "fisk.cykelson",
   "c025e999e6e4": "fisk.istanb?",
@@ -31,7 +31,7 @@ var descs = {
 
   "1694bdab6019": "daniel"
   "8416f92a6f18": "söfö.daniel",
-  "18d6c74551f8": "söfö.lgh1201",
+  "18d6c74551f8": "söfö.lgh1201", // s förstadsg 80?
   "18d6c72a08e0": "justnu",
   "8416f92db8a0": "ink-on-skin", //2e6f312f66f0
   "8416f92db832": "gorgeous",
