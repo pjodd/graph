@@ -4,7 +4,8 @@
 // TODO hardcoded:
 var solegw = "00:91:0d:d0:5e:01";
 
-document.getElementById("prefixes").innerHTML = prefixes.join();
+// Not for now
+// document.getElementById("prefixes").innerHTML = prefixes.join();
 
 var req;
 
