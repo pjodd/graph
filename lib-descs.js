@@ -35,11 +35,11 @@ var descs = {
   "18d6c72a08e0": "justnu",
   "8416f92db8a0": "ink-on-skin", //2e6f312f66f0
   "8416f92db832": "gorgeous",
+  "18d6c72a0b30": "triangelnstobak", // s förstadsg 64
   "c025e99a14be": "mio", //66126cc0acf8
   "8416f9e39ae6": "triang.ammo",
   "18d6c72a0db0": "silwertobak", //8a750390e2e8
   "c025e9a84baa": "kökskomp", //b26d326008b0
-  "18d6c72a0b30": "triang.tobak", //2262d1f72478
   "18d6c729ff48": "triang.gabi1",
   "18d6c7453e5c": "triang.gabi2",
   "18a6f7f046c2": "gåg.pontus",
