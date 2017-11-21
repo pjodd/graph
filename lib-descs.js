@@ -27,7 +27,7 @@ var descs = {
   "8416f92db762": "fredr.torg",
   "18d6c72a0bc0": "fredr.fisk",
   "18d6c72a0eb6": "fredr.stat",
-  "8416f92db8da": "haweli.fredr",
+  "18d6c72a01e8": "haweli.fredr",
   "8416f92db8da": "haweli.möllan",
   "8416f92db72e": "thaibox",
 
