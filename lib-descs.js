@@ -19,6 +19,7 @@ var descs = {
   "c025e999e6e4": "fisk.istanb?",
   "c025e999ea9a": "fisk.thaithai1",
   "c025e999e6ea": "fisk.thaithai2",
+  "8416f92db72e": "thaibox",
 
   "8416f92daa22": "erik1",
   "18d6c72a0efe": "erik2",
@@ -29,7 +30,7 @@ var descs = {
   "18d6c72a0eb6": "fredr.stat",
   "18d6c72a01e8": "haweli.fredr",
   "8416f92db8da": "haweli.möllan",
-  "8416f92db72e": "thaibox",
+  "l8d6c72a0bba": "möllans.ost",
 
   "18d6c729ff4a": "daniel",
   "8416f92a6f18": "söfö.daniel",
