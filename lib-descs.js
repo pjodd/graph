@@ -30,6 +30,7 @@ var descs = {
   "18d6c72a0eb6": "fredr.stat",
   "18d6c72a01e8": "haweli.fredr",
   "8416f92db8da": "haweli.möllan",
+  "18d6c72a0ce6": "möllans.ost",
 
   "18d6c729ff4a": "daniel",
   "8416f92a6f18": "söfö.daniel",
