@@ -16,7 +16,6 @@ var descs = {
   "8416f92db85a": "sofiel.canyon",
   "8416f92daa8e": "fisk.beauty-r",
   "c025e9a84c8a": "fisk.cykelson",
-  "c025e999e6e4": "fisk.istanb?",
   "c025e999ea9a": "fisk.istanbul",
   "c025e999e6ea": "fisk.thaithai2",
   "8416f92db72e": "thaibox",
@@ -58,6 +57,7 @@ var descs = {
   "c025e9a84b32": "bergsg.sara",
   "c025e999e70e": "mölleg.hojen",
   "c025e99a0e3a": "friisg.hojen",
+  "c025e999e6e4": "mölleg.yukai",
 };
 
 function getnodedesc(nodeid) {
