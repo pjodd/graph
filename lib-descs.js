@@ -11,8 +11,8 @@ var descs = {
   "18a6f7f04a06": "möllan.moa",
   "18d6c7453ec4": "möllan.lulle",
 
-  "18a6f7f04eae": "kalle",
-  "18d6c72a100a": "claesg-sofiel", // mot fiskart
+  "18a6f7f04eae": "kalle.net",
+  "18d6c72a100a": "kalle.sofiel", // mot fiskart
   "8416f92db85a": "sofiel.canyon",
   "8416f92daa8e": "fisk.beauty-r",
   "c025e9a84c8a": "fisk.cykelson",
