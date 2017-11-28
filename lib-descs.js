@@ -48,6 +48,7 @@ var descs = {
   "18a6f7f046c2": "gåg.pontus",
   "8416f92da9e6": "carlings",
   "8416f9ae6650": "triang.håkan",
+  "18d6c72a0c6a": "triang.netnod",
 
   "18d6c72a1008": "kami",
   "18d6c72a0ecc": "zeo",
