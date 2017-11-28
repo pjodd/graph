@@ -34,6 +34,7 @@ var descs = {
   "18d6c729ff4a": "daniel",
   "8416f92a6f18": "söfö.daniel",
   "18d6c74551f8": "söfö.lgh1201", // s förstadsg 80?
+  "18d6c72a01c8": "supporterhuset",
   "18d6c72a08e0": "justnu",
   "8416f92db8a0": "ink-on-skin", //2e6f312f66f0
   "8416f92db832": "gorgeous",
