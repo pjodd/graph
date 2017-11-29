@@ -13,7 +13,7 @@ body {
 }
 
 header {
-  font-size: 0.8rem;
+  /* font-size: 0.8rem; */
 }
 
 g.node circle {
@@ -22,19 +22,19 @@ g.node circle {
 }
 
 g.node text {
-  font-size: 0.8rem;
+  /* font-size: 0.8rem; */
 }
 
 g.node text.desc, .desc {
   fill:  purple;
   color: purple;
-  font-size: 0.8rem;
+  /* font-size: 0.8rem; */
 }
 
 g.node text.offline, .offline {
   fill:  #e54040;
   color: #e54040;
-  font-size: 0.7rem;
+  /* font-size: 0.7rem; */
   font-weight: bold;
 }
 
