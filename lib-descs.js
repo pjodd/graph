@@ -8,6 +8,7 @@
 var descs = {
   "18d6c72a0cc4": "quite",
 
+  "a42bb0b426ec": "möllan.hanna",
   "18a6f7f04a06": "möllan.moa",
   "18d6c7453ec4": "möllan.lulle",
 
