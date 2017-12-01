@@ -18,6 +18,7 @@ var descs = {
   "8416f92daa8e": "fisk.beauty-r",
   "c025e9a84c8a": "fisk.cykelson",
   "c025e999ea9a": "fisk.istanbul",
+  "8416f92da9a8": "fisk.thaithai1",
   "c025e999e6ea": "fisk.thaithai2",
   "8416f92db72e": "thaibox",
 
@@ -28,6 +29,7 @@ var descs = {
   "8416f92db762": "fredr.torg",
   "18d6c72a0bc0": "fredr.fisk",
   "18d6c72a0eb6": "fredr.stat",
+  "18d6c72a0bba": "fredr.möllan",
   "18d6c72a01e8": "haweli.fredr",
   "8416f92db8da": "haweli.möllan",
   "18d6c72a0ce6": "möllans.ost",
