@@ -1,5 +1,12 @@
 
-var prefixes = ["18d6c7", "18a6f7", "8416f9", "c025e9"];
+var prefixes = [
+  // tp-link:
+  "18d6c7",
+  "18a6f7",
+  "8416f9",
+  "c025e9",
+  "a42bb0",
+];
 
 function shortennodeid(nodeid) {
   for (var i = 0; i < prefixes.length; i++) {
