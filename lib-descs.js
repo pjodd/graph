@@ -48,7 +48,7 @@ var descs = {
   "c025e9a84baa": "kökskomp", //b26d326008b0
   "18d6c729ff48": "triang.gabi1",
   "18d6c7453e5c": "triang.gabi2",
-  "18a6f7f046c2": "gåg.pontus",
+  "18a6f7f046c2": "triang.gabi3",
   "8416f92dbdea": "pontus.söfö",
   "18d6c72a01d6": "pontus.rådmansg",
   "8416f92db798": "pontus.gåg",
