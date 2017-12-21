@@ -66,6 +66,7 @@ var descs = {
   "c025e999e70e": "mölleg.hojen",
   "c025e99a0e3a": "friisg.hojen",
   "c025e999e6e4": "mölleg.yukai",
+  "18d6c72a0c30": "kristianstadsg.minisweetlivs",
 };
 
 function getnodedesc(nodeid) {
