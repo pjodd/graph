@@ -64,7 +64,7 @@ var descs = {
   "18d6c729ff5a": "bergsg.chokladf",
   "c025e9a84b32": "bergsg.sara",
   "c025e999e70e": "mölleg.hojen",
-  "c025e99a0e3a": "friisg.hojen",
+  "c025e99a0e3a": "söskolg.hojen",
   "c025e999e6e4": "mölleg.yukai",
   "18d6c72a0c30": "kristianstadsg.minisweetlivs",
 };
