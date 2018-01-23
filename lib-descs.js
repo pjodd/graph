@@ -67,6 +67,8 @@ var descs = {
   "c025e99a0e3a": "söskolg.hojen",
   "c025e999e6e4": "mölleg.yukai",
   "18d6c72a0c30": "kristianstadsg.minisweetlivs",
+  "8416f92db79e": "utklippan-s", //fredriks polare johan
+  "18d6c72a0196": "utklippan-n", 
 };
 
 function getnodedesc(nodeid) {
