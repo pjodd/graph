@@ -57,7 +57,7 @@ var descs = {
   "18d6c72a0c6a": "triang.netnod",
 
   "18d6c72a1008": "kami",
-  "18d6c72a0ecc": "zeo",
+  "18d6c72a0c28": "zeo",
   "18d6c72a0a04": "zeo.nikolaig",
   "8416f92db6d8": "zeo.mölleg",
   "18d6c72a0bb0": "mölleg.chokladf",
