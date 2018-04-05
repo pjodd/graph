@@ -69,7 +69,7 @@ var link = vis.selectAll("line.link")
   .attr("y2", function (d) { return d.target.y; });
 
 //hover
-var.append("svg:title")
+link.append("svg:title")
   .text(function (d) {
     return "TQ: " + d.tq;
   });
