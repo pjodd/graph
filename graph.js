@@ -68,6 +68,12 @@ var link = vis.selectAll("line.link")
   .attr("x2", function (d) { return d.target.x; })
   .attr("y2", function (d) { return d.target.y; });
 
+//hover
+var.append("svg:title")
+  .text(function (d) {
+    return "TQ: " + d.tq;
+  });
+
 var node = vis.selectAll("circle.node")
   .data(graph.nodes)
   .enter().append("svg:g")
