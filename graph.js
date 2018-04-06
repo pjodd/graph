@@ -40,7 +40,7 @@ graphjson = JSON.parse(req.responseText);
 
 document.getElementById("timestamp").innerHTML = graphjson.timestamp;
 
-var w = 1000, h = 800;
+var w = 1100, h = 800;
 
 var vis = d3.select("#chart")
   .append("svg:svg")
