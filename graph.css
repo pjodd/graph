@@ -50,7 +50,7 @@ line.link {
 
 line.link.fastd, .fastd {
   stroke: green;
-  color:  green;
+  color:  black;
 }
 line.link.wireless, .wireless {
   stroke: blue;
