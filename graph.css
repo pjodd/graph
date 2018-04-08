@@ -58,7 +58,7 @@ line.link.wireless, .wireless {
 }
 
 line.tlink {
-  stroke-opacity: 0;
+  stroke-opacity: .2;
 }
 line.tlink.fastd, .fastd {
   stroke: red;
