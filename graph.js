@@ -222,6 +222,8 @@ node.append("svg:title")
       val = getstatskey(nodeid, "gateway");
       if (val) {
         out += "\ngateway: " + val;
+        val = getdesc(val) || "?";
+        out += " '" + val + "'";
       }
       val = getstatskey(nodeid, "gateway_nexthop");
       if (val) {
