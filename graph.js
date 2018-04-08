@@ -66,7 +66,7 @@ var link = vis.selectAll("line.link")
   .attr("y2", function (d) { return d.target.y; });
 
 //transparent background link so that hover will work properly
-var tlink = vis.selectAll("line.tlink")
+var tlink = vis.append("line.tlink")
   .data(graph.links)
   .enter().append("svg:line")
   .attr("class", function (d) { return "link " + d.type; })
