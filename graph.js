@@ -65,8 +65,19 @@ var link = vis.selectAll("line.link")
   .attr("x2", function (d) { return d.target.x; })
   .attr("y2", function (d) { return d.target.y; });
 
-//hover
-link.append("svg:title")
+//transparent background link so that hover will work properly
+var tlink = vis.selectAll("line.tlink")
+  .data(graph.links)
+  .enter().append("svg:line")
+  .attr("class", function (d) { return "link " + d.type; })
+  .style("stroke-width", function (d) { return 5; })
+  .attr("x1", function (d) { return d.source.x; })
+  .attr("y1", function (d) { return d.source.y; })
+  .attr("x2", function (d) { return d.target.x; })
+  .attr("y2", function (d) { return d.target.y; });
+
+//hover over tlink
+tlink.append("svg:title")
   .text(function (d) {
     return "TQ: " + d.tq;
   });
