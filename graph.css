@@ -61,16 +61,6 @@ line.tlink {
   stroke-opacity: 0;
 }
 
-//might not be needed with opacity set to 0
-line.tlink.fastd, .fastd {
-  stroke: #d0d0d0;
-  color:  #d0d0d0;
-}
-line.tlink.wireless, .wireless {
-  stroke: #d0d0d0;
-  color:  #d0d0d0;
-}
-
 .ontop {
   z-index: 255;
   position: relative;
