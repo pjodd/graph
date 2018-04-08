@@ -46,11 +46,12 @@ g.node text.clients, .clients {
 
 line.link {
   stroke-opacity: .6;
+  padding: 10dp;
 }
 
 line.link.fastd, .fastd {
   stroke: green;
-  color:  black;
+  color:  green;
 }
 line.link.wireless, .wireless {
   stroke: blue;
