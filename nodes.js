@@ -7,7 +7,7 @@ var columns = {
   "node_id":         { path: "nodeinfo.node_id",
                        cssclass: "monospace center" },
   "desc":            { path: "nodeinfo.node_id",
-                       repr: (f) => getnodedesc(f) },
+                       repr: (f) => getdesc(f) },
   "uptime":          { path: "statistics.uptime",
                        cssclass: "right",
                        repr: (f) => prettyduration(f * 1000.0) },

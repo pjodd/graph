@@ -1,9 +1,6 @@
 
 "use strict";
 
-// TODO hardcoded:
-var solegw = "00:91:0d:d0:5e:01";
-
 // Not for now
 // document.getElementById("prefixes").innerHTML = prefixes.join();
 
@@ -89,7 +86,7 @@ var modelcolors = {
 node.append("svg:circle")
   .attr("r", 5)
   .style("fill", function (d) {
-    // TODO? gw
+    // a gw? they have no node_id, and no nodeinfo
     if (!d.hasOwnProperty("node_id")) return;
     var val = getnodeinfokey(d.node_id, "hardware");
     if (val) {
@@ -151,7 +148,7 @@ node.append("text")
   .attr("dx", 10)
   .attr("dy", ".25em")
   .attr("class", function (d) {
-    if (getnodedesc(d.node_id))
+    if (getdesc(d.node_id))
         return "desc";
   })
   .text(function (d) {
@@ -163,11 +160,8 @@ node.append("text")
     } else {
       id = d.node_id;
     }
-    if (id == solegw) {
-      id = "gw";
-    }
     var text = shortennodeid(id);
-    var desc = getnodedesc(id);
+    var desc = getdesc(id);
     if (desc) {
       text = desc;
     }
@@ -236,7 +230,7 @@ node.append("svg:title")
       val = getstatskey(nodeid, "_nextnodeid");
       if (val) {
         out += "\n    next node_id: " + shortennodeid(val);
-        out += " '" + getnodedesc(val) + "'";
+        out += " '" + getdesc(val) + "'";
       }
       val = getnodeinfokey(nodeid, "network");
       if (val) {

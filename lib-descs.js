@@ -6,6 +6,10 @@
 // `tools/bssid-to-nodeid` to get hold of the node_id to be used here.
 
 var descs = {
+  "00:91:0d:d0:5e:01": "gw01",
+  "00:91:0d:d0:5e:05": "gw05",
+  "00:91:0d:d0:5e:06": "gw06",
+
   "18d6c72a0cc4": "quite",
 
   "a42bb0b426ec": "möllan.hanna",
@@ -68,10 +72,10 @@ var descs = {
   "c025e999e6e4": "mölleg.yukai",
   "18d6c72a0c30": "kristianstadsg.minisweetlivs",
   "8416f92db79e": "utklippan-s", //fredriks polare johan
-  "18d6c72a0196": "utklippan-n", 
+  "18d6c72a0196": "utklippan-n",
 };
 
-function getnodedesc(nodeid) {
-  if (!nodeid || !descs.hasOwnProperty(nodeid)) return "";
-  return descs[nodeid];
+function getdesc(id) {
+  if (!id || !descs.hasOwnProperty(id)) return "";
+  return descs[id];
 }
