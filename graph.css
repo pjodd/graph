@@ -60,6 +60,14 @@ line.link.wireless, .wireless {
 line.tlink {
   stroke-opacity: 0;
 }
+line.tlink.fastd, .fastd {
+  stroke: red;
+  color:  red;
+}
+line.tlink.wireless, .wireless {
+  stroke: yellow;
+  color:  yellow;
+}
 
 .ontop {
   z-index: 255;
