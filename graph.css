@@ -57,18 +57,6 @@ line.link.wireless, .wireless {
   color:  blue;
 }
 
-line.tlink {
-  stroke-opacity: .2;
-}
-line.tlink.fastd, .fastd {
-  stroke: red;
-  color:  red;
-}
-line.tlink.wireless, .wireless {
-  stroke: yellow;
-  color:  yellow;
-}
-
 .ontop {
   z-index: 255;
   position: relative;
