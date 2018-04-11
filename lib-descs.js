@@ -73,7 +73,11 @@ var descs = {
   "18d6c72a0c30": "kristianstadsg.minisweetlivs",
   "8416f92db79e": "utklippan-s", //fredriks polare johan
   "18d6c72a0196": "utklippan-n",
-  "18a6f7f04c8a": "buenos.aires.72"
+  "18a6f7f04c8a": "buenos.aires.72",
+
+  "8416f9aebd56": "ystadsg37",
+
+  "": "sentinel"
 };
 
 function getdesc(id) {
