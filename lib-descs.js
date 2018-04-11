@@ -74,6 +74,7 @@ var descs = {
   "8416f92db79e": "utklippan-s", //fredriks polare johan
   "18d6c72a0196": "utklippan-n",
   "18a6f7f04c8a": "buenos.aires.72",
+  "18d6c72a109a": "intergrill",
 
   "8416f9aebd56": "ystadsg37",
 
