@@ -83,6 +83,7 @@ var modelcolors = {
   "MR3020": "#3351e0",
   "WR841N": "#20a9e0",
   "Bullet M2": "#9966e0",
+  "WR741N": "#d666e0",
 }
 node.append("svg:circle")
   .attr("r", 5)
