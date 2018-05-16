@@ -81,6 +81,10 @@ var descs = {
   "f81a678c725c": "zeit&zaatar.bergs",
 
   "8416f9aebd56": "ystadsg37",
+  
+  "a0f3c19699ac": "mne-1",
+  "a0f3c19699d2": "mne-2",
+  "a0f3c1821f44": "mne-3",
 
   "": "sentinel"
 };
