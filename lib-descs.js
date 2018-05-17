@@ -12,9 +12,9 @@ var descs = {
 
   "18d6c72a0cc4": "quite",
 
-  "a42bb0b426ec": "möllan.hanna",
-  "18a6f7f04a06": "möllan.moa",
-  "18d6c7453ec4": "möllan.lulle",
+  "a42bb0b426ec": "mölletrg.nö",
+  "18a6f7f04a06": "mölletrg.sö",
+  "18d6c7453ec4": "mölletrg.n",
 
   "18a6f7f04eae": "kalle.net",
   "18d6c72a100a": "kalle.sofiel", // mot fiskart
@@ -31,16 +31,16 @@ var descs = {
   "8416f9e45668": "erik3",
   "8416f9aef416": "fredr",
   "8416f92db762": "fredr.torg",
-  "18d6c72a0bc0": "fredr.fisk",
+  "18d6c72a0bc0": "fredr.fisktrg",
   "18d6c72a0eb6": "fredr.stat",
   "18d6c72a0bba": "fredr.möllan",
   "18d6c72a01e8": "haweli.fredr",
   "8416f92db8da": "haweli.möllan",
   "18d6c72a0ce6": "möllans.ost",
 
-  "18d6c729ff4a": "daniel",
-  "8416f92a6f18": "söfö.daniel",
-  "18d6c74551f8": "söfö.lgh1201", // s förstadsg 80?
+  "18d6c729ff4a": "söfö.d.net",
+  "8416f92a6f18": "söfö.d",
+  "18d6c74551f8": "söfö.2", // s förstadsg 80?
   "18d6c72a01c8": "supporterhuset",
   "18d6c72a08e0": "justnu",
   "8416f92db8a0": "ink-on-skin", //2e6f312f66f0
@@ -50,20 +50,20 @@ var descs = {
   "8416f9e39ae6": "triang.ammo",
   "18d6c72a0db0": "silwertobak", //8a750390e2e8
   "c025e9a84baa": "kökskomp", //b26d326008b0
-  "18d6c729ff48": "triang.gabi1",
-  "18d6c7453e5c": "triang.gabi2",
-  "18a6f7f046c2": "triang.gabi3",
-  "8416f92dbdea": "pontus.söfö",
-  "18d6c72a01d6": "pontus.rådmansg",
-  "8416f92db798": "pontus.gåg",
+  "18d6c729ff48": "triangtrg.g1",
+  "18d6c7453e5c": "triangtrg.g2",
+  "18a6f7f046c2": "triangtrg.g3",
+  "8416f92dbdea": "p.söfö",
+  "18d6c72a01d6": "p.rådmansg",
+  "8416f92db798": "p.gåg",
   "8416f92da9e6": "carlings",
-  "8416f9ae6650": "triang.håkan",
-  "18d6c72a0c6a": "triang.netnod",
+  "8416f9ae6650": "tritrg.h",
+  "18d6c72a0c6a": "tritrg.netnod",
 
-  "18d6c72a1008": "kami",
+  "18d6c72a1008": "k.kapellplan",
   "18d6c72a0c28": "zeo",
   "00156deeeb3c": "zeo.nikolaig",
-  "18d6c72a0a04": "matilda.nikolaig",
+  "18d6c72a0a04": "nikolaig",
   "8416f92db6d8": "zeo.mölleg",
   "18d6c72a0bb0": "mölleg.chokladf",
   "18d6c729ff5a": "bergsg.chokladf",
