@@ -40,6 +40,7 @@ var columns = {
   "model":           { path: "nodeinfo.hardware.model",
                        repr: (f) => f.replace(/^TP-Link TL-/, "").toLowerCase() },
   "release":         { path: "nodeinfo.software.firmware.release" },
+  "bat-version":     { path: "nodeinfo.software.batman-adv.version" },
 }
 
 var allnodes = {};
