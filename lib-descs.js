@@ -86,9 +86,13 @@ var descs = {
   "a0f3c19699d2": "mne-2",
   "a0f3c1821f44": "mne-3",
   
-  "eae67f03ea49": "fp.rondellen.j-1",
-  "befedcd2bed1": "fp.rondellen.j-2",
+  "18a6f7f03e4a": "fp.rondellen.j-1",
+  "8416f92db8b2": "fp.rondellen.j-2",
 
+  "a0f3c1f03e4a": "b.o.g.net",
+  "a0f3c1824ada": "b.o.g.nskolg",
+  "a0f3c1969512": "möllevg.r",
+  
   "": "sentinel"
 };
 
