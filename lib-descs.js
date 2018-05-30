@@ -89,7 +89,7 @@ var descs = {
   "18a6f7f03e4a": "fp.rondellen.j-1",
   "8416f92db8b2": "fp.rondellen.j-2",
 
-  "a0f3c1f03e4a": "b.o.g.net",
+  "a0f3c1969994": "b.o.g.net",
   "a0f3c1824ada": "b.o.g.nskolg",
   "a0f3c1969512": "möllevg.r",
   
