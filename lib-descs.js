@@ -29,12 +29,12 @@ var descs = {
   "8416f92daa22": "erik1",
   "18d6c72a0efe": "erik2",
   "8416f9e45668": "erik3",
-  "8416f9aef416": "fredr",
-  "8416f92db762": "fredr.torg",
-  "18d6c72a0bc0": "fredr.fisktrg",
-  "18d6c72a0eb6": "fredr.stat",
-  "18d6c72a0bba": "fredr.möllan",
-  "18d6c72a01e8": "haweli.fredr",
+  "8416f9aef416": "hemlikt.uplnk",
+  "8416f92db762": "hemlikt.mtorg",
+  "18d6c72a0bc0": "hemlikt.ftorg",
+  "18d6c72a0eb6": "hemlikt.trist",
+  "18d6c72a0bba": "smthn.möllan",
+  "18d6c72a01e8": "haweli.smthn",
   "8416f92db8da": "haweli.möllan",
   "18d6c72a0ce6": "möllans.ost",
 
@@ -80,19 +80,21 @@ var descs = {
   "18d6c72a0ecc": "curryhut.bergsg",
   "f81a678c725c": "zeit&zaatar.bergs",
 
-  "8416f9aebd56": "ystadsg37",
-  
+  "6466b3c524d6": "lodet.n",
+  "a0f3c1824c5a": "lodet.m",
+  "8416f9aebd56": "lodet.s",
+
   "a0f3c19699ac": "mne-1",
   "a0f3c19699d2": "mne-2",
   "a0f3c1821f44": "mne-3",
-  
+
   "18a6f7f03e4a": "fp.rondellen.j-1",
   "8416f92db8b2": "fp.rondellen.j-2",
 
   "a0f3c1969994": "b.o.g.net",
   "a0f3c1824ada": "b.o.g.nskolg",
   "a0f3c1969512": "möllevg.r",
-  
+
   "": "sentinel"
 };
 
