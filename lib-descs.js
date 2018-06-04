@@ -97,6 +97,8 @@ var descs = {
 
   "6466b3c53d82": "floyd",
 
+  "18d6c72a125e": "5hUr1k3n",
+
   "": "sentinel"
 };
 
