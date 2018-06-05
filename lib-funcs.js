@@ -14,11 +14,12 @@ var prefixes = [
 ];
 
 function shortennodeid(nodeid) {
-  for (var i = 0; i < prefixes.length; i++) {
-    if (nodeid.startsWith(prefixes[i])) {
-      return nodeid.substr(prefixes[i].length);
-    }
-  }
+  // dont shorten for now
+//  for (var i = 0; i < prefixes.length; i++) {
+//    if (nodeid.startsWith(prefixes[i])) {
+//      return nodeid.substr(prefixes[i].length);
+//    }
+//  }
   return nodeid;
 }
 
