@@ -1,7 +1,7 @@
 
 // TODO, could keep nodesdata (values) in objs like these columns, rewrite the
 // repr to eat vals directly, and so on... and let the sorting sort on repr if
-// there is one, otherwise on val -- then I wouldn't need to do shortennodeid first?!
+// there is one, otherwise on val...
 
 var columns = {
   "node_id":         { path: "nodeinfo.node_id",
@@ -77,10 +77,6 @@ var nodes = nodesjson.nodes.map(function (node) {
   var nodeobj = {};
   Object.keys(columns).forEach(function (column) {
     val = getbypath(node, columns[column].path);
-    // do this here since we wanna sort on the shortened node_id
-    if (val && column == "node_id") {
-      val = shortennodeid(val);
-    }
     // it's actually an array
     if (val && column == "iface-wireless") {
       val = val[0];

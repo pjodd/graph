@@ -162,7 +162,7 @@ node.append("text")
     } else {
       id = d.node_id;
     }
-    var text = shortennodeid(id);
+    var text = id;
     var desc = getdesc(id);
     if (desc) {
       text = desc;
@@ -233,7 +233,7 @@ node.append("svg:title")
       }
       val = getstatskey(nodeid, "_nextnodeid");
       if (val) {
-        out += "\n    next node_id: " + shortennodeid(val);
+        out += "\n    next node_id: " + val;
         out += " '" + getdesc(val) + "'";
       }
       val = getnodeinfokey(nodeid, "network");
