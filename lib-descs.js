@@ -78,7 +78,6 @@ var descs = {
   "18a6f7f04c8a": "buenos.aires.72",
   "18d6c72a109a": "intergrill",
   "18a6f7f05052": "curryhut.kristianstadsg",
-  "18d6c72a0ecc": "curryhut.bergsg",
   "f81a678c725c": "rotana",
 
   "6466b3c524d6": "lodet.n",
