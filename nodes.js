@@ -41,6 +41,8 @@ var columns = {
                        repr: (f) => f.replace(/^TP-Link TL-/, "").toLowerCase() },
   "release":         { path: "nodeinfo.software.firmware.release" },
   "bat-version":     { path: "nodeinfo.software.batman-adv.version" },
+  "addrs (non-fe80)":{ path: "nodeinfo.network.addresses",
+                       repr: (f) => f.filter(addr => !addr.startsWith("fe80:")).join(" ")},
 }
 
 var allnodes = {};
