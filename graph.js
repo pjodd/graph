@@ -29,6 +29,11 @@ nodesjson.nodes.forEach(function (e, i, arr) {
   }
 });
 
+function getnodedata(nodeid, path) {
+  if (!allnodes.hasOwnProperty(nodeid)) return null;
+  return getbypath(allnodes[nodeid], path);
+}
+
 var graphjson;
 req = new XMLHttpRequest();
 req.open("GET", "http://gateway-01.mesh.pjodd.se/hopglass/graph.json", false);
@@ -90,11 +95,11 @@ node.append("svg:circle")
   .style("fill", function (d) {
     // a gw? they have no node_id, and no nodeinfo
     if (!d.hasOwnProperty("node_id")) return;
-    var val = getnodeinfokey(d.node_id, "hardware");
-    if (val) {
+    var model = getnodedata(d.node_id, "nodeinfo.hardware.model");
+    if (model) {
       var c = modelcolors.default;
       Object.keys(modelcolors).forEach(function(k) {
-        if (val.model.indexOf(k) != -1) {
+        if (model.indexOf(k) != -1) {
           c = modelcolors[k];
         }
       });
@@ -108,43 +113,6 @@ Object.keys(modelcolors).forEach(function(k) {
   }
 });
 document.getElementById("models").innerHTML = models;
-
-function prettyduration(millis) {
-  var s = millis / 1000.0;
-  var d = Math.floor(s / 86400);
-  if (d) return d + "d";
-  var h = Math.floor(s / 3600);
-  if (h) return h + "h";
-  var m = Math.floor(s / 60);
-  if (m) return m + "m";
-  return Math.floor(s) + "s";
-}
-
-// TODO could prob replace these with some path-getter, like in nodes.js
-function getstatskey(nodeid, which) {
-  var stats = getkey(nodeid, "statistics");
-  if (!stats || !stats.hasOwnProperty(which)) return null;
-  return stats[which];
-}
-
-function getflagskey(nodeid, which) {
-  var flags = getkey(nodeid, "flags");
-  if (!flags || !flags.hasOwnProperty(which)) return null;
-  return flags[which];
-}
-
-function getnodeinfokey(nodeid, which) {
-  var ni = getkey(nodeid, "nodeinfo");
-  if (!ni || !ni.hasOwnProperty(which)) return null;
-  return ni[which];
-}
-
-function getkey(nodeid, which) {
-  if (!allnodes.hasOwnProperty(nodeid)) return null;
-  var n = allnodes[nodeid];
-  if (!n.hasOwnProperty(which)) return null;
-  return n[which];
-}
 
 node.append("text")
   .attr("dx", 10)
@@ -185,7 +153,7 @@ node.append("text")
   .text(function (d) {
     if (!d.hasOwnProperty("node_id")) return;
     var out = "";
-    var clients = getstatskey(d.node_id, "clients");
+    var clients = getnodedata(d.node_id, "statistics.clients");
     if (clients) {
       out += clients;
       sumclients += clients;
@@ -202,10 +170,10 @@ node.append("text")
   .text(function (d) {
     if (!d.hasOwnProperty("node_id")) return;
     var out = "";
-    var online = getflagskey(d.node_id, "online");
+    var online = getnodedata(d.node_id, "flags.online");
     if (online != null && !online) {
       out += "offline ";
-      out += prettyduration(Date.now() - Date.parse(getkey(d.node_id, "lastseen")));
+      out += prettyduration(Date.now() - Date.parse(getnodedata(d.node_id, "lastseen")));
     }
     return out;
   });
@@ -221,39 +189,41 @@ node.append("svg:title")
     if (nodeid) {
       out += "\nnode_id: " + nodeid;
       var val;
-      val = getstatskey(nodeid, "gateway");
+      val = getnodedata(nodeid, "statistics.gateway");
       if (val) {
         out += "\ngateway: " + val;
         val = getdesc(val) || "?";
         out += " '" + val + "'";
       }
-      val = getstatskey(nodeid, "gateway_nexthop");
+      val = getnodedata(nodeid, "statistics.gateway_nexthop");
       if (val) {
         out += "\ngateway_nexthop: " + val;
       }
-      val = getstatskey(nodeid, "_nextnodeid");
+      val = getnodedata(nodeid, "statistics._nextnodeid");
       if (val) {
         out += "\n    next node_id: " + val;
         out += " '" + getdesc(val) + "'";
       }
-      val = getnodeinfokey(nodeid, "network");
+      val = getnodedata(nodeid, "nodeinfo.network.mesh.bat0.interfaces");
       if (val) {
-        var ifaces = val.mesh.bat0.interfaces;
         out += "\ninterface addresses:";
-        Object.keys(ifaces).forEach(function (iface) {
-          out += "\n    " + iface + " " + ifaces[iface];
+        Object.keys(val).forEach(function (iface) {
+          out += "\n    " + iface + " " + val[iface];
         });
-        out += "\naddresses:\n    " + val.addresses.join("\n    ");
       }
-      val = getnodeinfokey(nodeid, "hardware");
+      val = getnodedata(nodeid, "nodeinfo.network.addresses");
       if (val) {
-        out += "\nmodel: " + val.model;
+        out += "\naddresses:\n    " + val.join("\n    ");
       }
-      val = getnodeinfokey(nodeid, "batman-adv");
+      val = getnodedata(nodeid, "nodeinfo.hardware.model");
       if (val) {
-        out += "\nbat-version: " + val.version;
-      }      
-      val = getstatskey(nodeid, "uptime");
+        out += "\nmodel: " + val;
+      }
+      val = getnodedata(nodeid, "nodeinfo.software.batman-adv.version");
+      if (val) {
+        out += "\nbat-version: " + val;
+      }
+      val = getnodedata(nodeid, "statistics.uptime");
       if (val) {
         out += "\nuptime: " + prettyduration(val * 1000.0);
       }

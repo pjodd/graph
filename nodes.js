@@ -65,14 +65,6 @@ nodesjson.nodes.forEach(function (e, i, arr) {
   }
 });
 
-function getbypath(obj, path) {
-  return path.split(".").reduce(function (prev, curr) {
-    // not doing prev.hasOwnProperty(curr) ? prev[curr] ... -- it's currently
-    // OK that what's false (false, 0 etc) becomes "".
-    return prev ? (prev[curr] ? prev[curr] : "") : ""
-  }, obj || self)
-}
-
 var nodes = nodesjson.nodes.map(function (node) {
   var nodeobj = {};
   Object.keys(columns).forEach(function (column) {
