@@ -249,6 +249,10 @@ node.append("svg:title")
       if (val) {
         out += "\nmodel: " + val.model;
       }
+      val = getnodeinfokey(nodeid, "batman-adv");
+      if (val) {
+        out += "\nversion: " + val.version;
+      }      
       val = getstatskey(nodeid, "uptime");
       if (val) {
         out += "\nuptime: " + prettyduration(val * 1000.0);
