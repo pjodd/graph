@@ -251,7 +251,7 @@ node.append("svg:title")
       }
       val = getnodeinfokey(nodeid, "batman-adv");
       if (val) {
-        out += "\nversion: " + val.version;
+        out += "\nbat-version: " + val.version;
       }      
       val = getstatskey(nodeid, "uptime");
       if (val) {
