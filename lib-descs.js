@@ -61,7 +61,7 @@ var descs = {
   "18d6c72a0c6a": "tritrg.netnod",
 
   "18d6c72a1008": "k.kapellplan",
-  "18d6c72a0c28": "zeo",
+  "704f5783b2ea": "zeo",
   "00156deeeb3c": "zeo.nikolaig",
   "18d6c72a0a04": "nikolaig",
   "8416f92db6d8": "zeo.mölleg",
