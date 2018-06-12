@@ -1,0 +1,19 @@
+#!/bin/bash
+
+nodesurl=http://gateway-01.mesh.pjodd.se/hopglass/nodes.json
+descf=${0%/*}/../lib-descs.js
+
+present=$(mktemp)
+described=$(mktemp)
+
+curl -s $nodesurl | jq -r '.nodes[].nodeinfo.node_id' >$present
+
+sed -n 's/^ *"\(............\)":.*/\1/p' $descf >$described
+
+echo "present in current ${nodesurl##*/}, but not in ${descf##*/}:"
+grep -v -Ff $described $present | sort
+
+echo "described in ${descf##*/}, but not present in current ${nodesurl##*/}:"
+grep -v -Ff $present $described | grep -Ff - $descf | sort
+
+rm -f $present $described
