@@ -102,6 +102,11 @@ var descs = {
   "18a6f790f936": "kristianstadsg.ost",
   "8416f9ae9df8": "kristianstadsg.c", //martins polares granne
 
+  "a0f3c182517a": "sege.dixie.1",
+  "a0f3c1823ce2": "sege.dixie.2",
+  "a0f3c18250f2": "sege.dixie.3",
+
+  
   "18d6c72a125e": "5hUr1k3n",
 
   "": "sentinel"
