@@ -64,7 +64,7 @@ var descs = {
   "704f5783b2ea": "zeo",
   "00156deeeb3c": "zeo.nikolaig",
   "18d6c72a0a04": "nikolaig",
-  "8416f92db6d8": "zeo.mölleg",
+  "18d6c72a0ecc": "zeo.mölleg",
   "18d6c72a0bb0": "mölleg.chokladf",
   "18d6c729ff5a": "bergsg.chokladf",
   "c025e9a84b32": "bergsg.sara",
@@ -104,6 +104,11 @@ var descs = {
   "a0f3c1969988": "amalthea.kg",
   "a0f3c1823ec2": "amalthea.nv",
 
+  "a0f3c182517a": "sege.dixie.1",
+  "a0f3c1823ce2": "sege.dixie.2",
+  "a0f3c18250f2": "sege.dixie.3",
+
+  
   "18d6c72a125e": "5hUr1k3n",
 
   "": "sentinel"
