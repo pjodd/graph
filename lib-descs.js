@@ -108,6 +108,7 @@ var descs = {
   "a0f3c1823ce2": "sege.dixie.2",
   "a0f3c18250f2": "sege.dixie.3",
 
+  "18d6c72a0b74": "clæsgatan",
   
   "18d6c72a125e": "5hUr1k3n",
 
