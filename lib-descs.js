@@ -57,7 +57,7 @@ var descs = {
   "18d6c72a01d6": "p.rådmansg",
   "8416f92db798": "p.gåg",
   "8416f92da9e6": "carlings",
-  "a0f3c1824c36": "soffor&sängar"
+  "a0f3c1824c36": "soffor&sängar",
   "8416f9ae6650": "tritrg.h",
   "18d6c72a0c6a": "tritrg.netnod",
 
