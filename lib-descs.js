@@ -71,8 +71,8 @@ var descs = {
   "c025e9a84b32": "bergsg.sara",
   "c025e999e70e": "mölleg.hojen",
   "c025e99a0e3a": "söskolg.hojen",
-  "c025e999e6e4": "mölleg.yukai",
-  "e894f60ca8f8": "bergsg.yukai",
+  "c025e999e6e4": "bergsg.yukai",
+  "e894f60ca8f8": "mölleg.yukai",
   "18d6c72a0c30": "kristianstadsg.minisweetlivs",
   "8416f92db79e": "utklippan-s", //fredriks polare johan
   "18d6c72a0196": "utklippan-n",
