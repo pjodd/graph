@@ -225,10 +225,10 @@ node.append("svg:title")
       if (val) {
         out += "\nbat-version: " + val;
       }
-      val = getnodedata(nodeid, "nodeinfo.software.firmare.release");
+      val = getnodedata(nodeid, "nodeinfo.software.firmware.release");
       if (val) {
         out += "\nrelease: " + val;
-      }      
+      }
       val = getnodedata(nodeid, "statistics.uptime");
       if (val) {
         out += "\nuptime: " + prettyduration(val * 1000.0);
