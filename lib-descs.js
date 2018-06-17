@@ -22,7 +22,7 @@ var descs = {
   "8416f92daa8e": "fisk.beauty-r",
   "c025e9a84c8a": "fisk.cykelson",
   "c025e999ea9a": "fisk.istanbul",
-  "8416f92da9a8": "fisk.thaithai1",
+  "8416f92da9a8": "fisk.thaithai_torg",
   "c025e999e6ea": "fisk.thaithai2",
   "8416f92db72e": "thaibox",
 
