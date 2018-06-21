@@ -38,7 +38,7 @@ var descs = {
   "8416f92db8da": "haweli.möllan",
   "18d6c72a0ce6": "möllans.ost",
 
-  "8416f92db6d8": "söfö.d.triangeln"
+  "8416f92db6d8": "söfö.d.triangeln",
   "a0f3c182502e": "söfö.d.net",
   "18d6c72a0c28": "söfö.d.möllan",
   "18d6c72a01c8": "supporterhuset",
