@@ -38,9 +38,9 @@ var descs = {
   "8416f92db8da": "haweli.möllan",
   "18d6c72a0ce6": "möllans.ost",
 
-  "18d6c729ff4a": "söfö.d.net",
-  "8416f92a6f18": "söfö.d",
-  "18d6c74551f8": "söfö.2", // s förstadsg 80?
+  "8416f92db6d8": "söfö.d.triangeln"
+  "a0f3c182502e": "söfö.d.net",
+  "18d6c72a0c28": "söfö.d.möllan",
   "18d6c72a01c8": "supporterhuset",
   "18d6c72a08e0": "justnu",
   "8416f92db8a0": "ink-on-skin", //2e6f312f66f0
