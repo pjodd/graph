@@ -113,6 +113,9 @@ var descs = {
   "a0f3c19698c6": "knasgatan",
 
   "18d6c72a125e": "5hUr1k3n",
+  
+  "a0f3c1824b56": "ö.farmvägen",
+  "a0f3c1824b8c": "ö.farmvägen->baskemölleg",
 
   "": "sentinel"
 };
