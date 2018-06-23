@@ -114,8 +114,8 @@ var descs = {
 
   "18d6c72a125e": "5hUr1k3n",
   
-  "a0f3c1824b56": "ö.farmvägen",
-  "a0f3c1824b8c": "ö.farmvägen->baskemölleg",
+  "a0f3c1824b56": "ö.farmv",
+  "a0f3c1824b8c": "ö.farmv->kiviksg",
 
   "": "sentinel"
 };
