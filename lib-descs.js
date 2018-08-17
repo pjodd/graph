@@ -14,7 +14,7 @@ var descs = {
 
   "a42bb0b426ec": "mölletrg.nö",
   "18a6f7f04a06": "mölletrg.sö",
-  "18d6c7453ec4": "mölletrg.n",
+  "18d6c7453ec4": "italo",
 
   "18a6f7f04eae": "kalle.net",
   "18d6c72a100a": "kalle.sofiel", // mot fiskart
