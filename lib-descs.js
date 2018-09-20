@@ -13,11 +13,11 @@ var descs = {
   "18d6c72a0cc4": "quite",
 
   "a42bb0b426ec": "mölletrg.nö",
-  "18a6f7f04a06": "mölletrg.sö",
+  "18d6c72a100a": "mölletrg.sö", 
   "18d6c7453ec4": "italo",
+  "18a6f7f04a06": "i11.mölletrg.sö",
 
   "18a6f7f04eae": "kalle.net",
-  "18d6c72a100a": "kalle.sofiel", // mot fiskart
   "8416f92db85a": "sofiel.canyon",
   "8416f92daa8e": "fisk.beauty-r",
   "c025e9a84c8a": "fisk.cykelson",
