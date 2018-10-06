@@ -13,13 +13,13 @@ var descs = {
   "18d6c72a0cc4": "quite",
 
   "a42bb0b426ec": "mölletrg.nö",
-  "18d6c72a100a": "mölletrg.sö", 
+  "18d6c72a100a": "mölletrg.sö",
   "18d6c7453ec4": "italo",
-  
+
   "18a6f7f04a06": "i11.mölletrg.sö",
   "a0f3c1969972": "i11.mölletrg.sö.bounce",
   "a0f3c19699d6": "i11.mölletrg.sö.net",
-  
+
   "18a6f7f04eae": "kalle.net",
   "8416f92db85a": "sofiel.canyon",
   "8416f92daa8e": "fisk.beauty-r",
@@ -32,7 +32,7 @@ var descs = {
   "8416f92daa22": "erik1",
   "18d6c72a0efe": "erik2",
   "8416f9e45668": "erik3",
-  "8416f9aef416": "hemlikt.uplnk",
+  "802aa8c55d3a": "hemlikt.uplnk",
   "8416f92db762": "hemlikt.mtorg",
   "18d6c72a0bc0": "hemlikt.ftorg",
   "18d6c72a0eb6": "hemlikt.trist",
@@ -117,7 +117,7 @@ var descs = {
   "a0f3c19698c6": "knasgatan",
 
   "18d6c72a125e": "5hUr1k3n",
-  
+
   "a0f3c1824b56": "ö.farmv",
   "a0f3c1824b8c": "ö.farmv->kiviksg",
 
