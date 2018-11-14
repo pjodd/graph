@@ -74,6 +74,7 @@ var descs = {
   "18d6c729ff5a": "bergsg.chokladf",
   "c025e9a84b32": "bergsg.sara",
   "c025e999e70e": "mölleg.hojen",
+  "a0f3c1969512": "möllevg.r",
   "c025e99a0e3a": "söskolg.hojen",
   "c025e999e6e4": "bergsg.yukai",
   "e894f60ca8f8": "mölleg.yukai",
@@ -96,10 +97,11 @@ var descs = {
   "18a6f7f03e4a": "fp.rondellen.j-1",
   "8416f92db8b2": "fp.rondellen.j-2",
 
-  "a0f3c1969994": "b.o.g.net",
-  "a0f3c1824ada": "b.o.g.nskolg",
-  "a0f3c1969512": "möllevg.r",
 
+  "a0f3c1969994": "prosper.solvesborg.net",
+  "a0f3c1824ada": "prosper.solvesborg.out",
+
+  
   "6466b3c53d82": "floyd",
   "a0f3c19698ce": "damary",
   "a0f3c1824a98": "jesusbaren",
