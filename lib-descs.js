@@ -21,6 +21,12 @@ var descs = {
   "a0f3c19699d6": "i11.mölletrg.sö.net",
 
   "18a6f7f04eae": "kalle.net",
+  "a0f3c19695b0": "kalle.slg",
+  "a0f3c18242c4": "kalle.ig",
+  
+  "a0f3c19699c8": "fisk.shp.a.1",
+  "a0f3c196982c": "fisk.shp.a.2",
+
   "8416f92db85a": "sofiel.canyon",
   "8416f92daa8e": "fisk.beauty-r",
   "c025e9a84c8a": "fisk.cykelson",
@@ -122,6 +128,8 @@ var descs = {
 
   "a0f3c1824b56": "ö.farmv",
   "a0f3c1824b8c": "ö.farmv->kiviksg",
+  
+  "a0f3c1969964": "smedjeg.5.fm",
 
   "": "sentinel"
 };
