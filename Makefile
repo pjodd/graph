@@ -1,7 +1,7 @@
 
 OBJS=index.html graph.html graph.css graph.js nodes.html nodes.js
 LIBJS=lib-descs.js lib-funcs.js
-ASSETS=d3.min.js p.png
+ASSETS=d3.min.js d3-queue.min.js p.png
 
 BUILDDIR=build
 
@@ -39,3 +39,5 @@ $(addprefix $(BUILDDIR)/,$(ASSETS)): $(BUILDDIR)/%: %
 
 d3.min.js:
 	curl -O https://cdnjs.cloudflare.com/ajax/libs/d3/3.4.13/d3.min.js
+d3-queue.min.js:
+	curl -O https://cdnjs.cloudflare.com/ajax/libs/d3-queue/3.0.7/d3-queue.min.js
