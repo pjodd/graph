@@ -1,6 +1,3 @@
-
-"use strict";
-
 // Not for now
 // document.getElementById("prefixes").innerHTML = prefixes.join();
 

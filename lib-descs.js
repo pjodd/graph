@@ -1,3 +1,4 @@
+'use strict'
 
 // These are node_ids, as found in samples/graph.json
 // (samples/graph_readable.json).
