@@ -45,25 +45,10 @@ var columns = {
                        repr: (f) => f.filter(addr => !addr.startsWith("fe80:")).join(" ")},
 }
 
-var allnodes = {};
 var req = new XMLHttpRequest();
 req.open("GET", "http://gateway-01.mesh.pjodd.se/hopglass/nodes.json", false);
 req.send();
 var nodesjson = JSON.parse(req.responseText);
-nodesjson.nodes.forEach(function (e, i, arr) {
-  var thisnode = e.nodeinfo.node_id;
-  allnodes[thisnode] = e;
-  if (e.statistics.hasOwnProperty("gateway_nexthop")) {
-    // we have nexthop mac, resolve to node_id and store in statistics
-    var nextmac = e.statistics.gateway_nexthop;
-    arr.forEach(function (e) {
-      // this interface's mac is the relevant one (`id` in graph.json)
-      if (e.nodeinfo.network.mesh.bat0.interfaces.wireless == nextmac) {
-        allnodes[thisnode].statistics._nexthop_nodeid = e.nodeinfo.node_id;
-      }
-    });
-  }
-});
 
 var nodes = nodesjson.nodes.map(function (node) {
   var nodeobj = {};
