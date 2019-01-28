@@ -130,6 +130,8 @@ var descs = {
 
   'a0f3c1969964': 'smedjeg.5.fm',
   
+  'a0f3c19699be': 'viking',
+  
   'a0f3c19697fc': 'mm.1',
 
   '': 'sentinel'
