@@ -72,7 +72,9 @@ var descs = {
   '8416f9ae6650': 'tritrg.h',
   '18d6c72a0c6a': 'tritrg.netnod',
 
-  '18d6c72a1008': 'k.kapellplan',
+  '18d6c72a1008': 'k.kapellgatan',
+  '8416f9ae65f0': 'k.kapellplan',
+
   '704f5783b2ea': 'zeo',
   '00156deeeb3c': 'zeo.nikolaig',
   '18d6c72a0a04': 'nikolaig',
