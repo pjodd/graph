@@ -131,10 +131,13 @@ var descs = {
   'a0f3c1824b8c': 'ö.farmv->kiviksg',
 
   'a0f3c1969964': 'smedjeg.5.fm',
-  
+
   'a0f3c19699be': 'viking',
-  
+
   'a0f3c19697fc': 'mm.1',
+
+  'a0f3c1824c84': 'teknikerg.uppl',
+  'a0f3c1824c78': 'teknikerg',
 
   '': 'sentinel'
 }
