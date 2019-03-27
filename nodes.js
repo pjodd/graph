@@ -49,7 +49,7 @@ function main (nodesjson) {
     'release':         { path: 'nodeinfo.software.firmware.release' },
     'bat-version':     { path: 'nodeinfo.software.batman-adv.version' },
     'addrs (non-fe80)':{ path: 'nodeinfo.network.addresses',
-                         repr: (f) => f.filter(addr => !addr.startsWith('fe80:')).join(' ') }
+                         repr: (f) => [...new Set(f.filter(addr => !addr.startsWith('fe80:')))].join(' ') }
   }
 
   var nodes = nodesjson.nodes.map(function (node) {
