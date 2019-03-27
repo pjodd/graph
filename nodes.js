@@ -80,7 +80,15 @@ function main (nodesjson) {
     function draw (nodes, ordercol) {
       var d = sortorders[ordercol] ? -1 : 1
       nodes = nodes.sort(function (a, b) {
-        return a[ordercol] < b[ordercol] ? d : d * -1
+        var vala = a[ordercol]
+        var valb = b[ordercol]
+        // should we sort by repr(val) instead?
+        var repr = columns[ordercol].repr
+        if (repr && ["desc"].includes(ordercol)) {
+          vala = repr(vala)
+          valb = repr(valb)
+        }
+        return vala < valb ? d : d * -1
       })
 
       thead.innerHTML = ''
