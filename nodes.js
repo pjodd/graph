@@ -45,7 +45,7 @@ function main (nodesjson) {
                          cssclass: 'center',
                          repr: (f) => f.toFixed(2) },
     'model':           { path: 'nodeinfo.hardware.model',
-                         repr: (f) => f.replace(/^TP-Link /i, '').toLowerCase() },
+                         repr: (f) => f.replace(/^tp-link /i, '').toLowerCase() },
     'release':         { path: 'nodeinfo.software.firmware.release' },
     'bat-version':     { path: 'nodeinfo.software.batman-adv.version' },
     'addrs (non-fe80)':{ path: 'nodeinfo.network.addresses',
