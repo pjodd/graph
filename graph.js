@@ -2,8 +2,8 @@
 // document.getElementById('prefixes').innerHTML = prefixes.join();
 
 var q = d3.queue(2)
-q.defer(d3.json, 'http://gateway-01.mesh.pjodd.se/hopglass/nodes.json')
-q.defer(d3.json, 'http://gateway-01.mesh.pjodd.se/hopglass/graph.json')
+q.defer(d3.json, 'https://lublin.se/pjodd/gateway-01.mesh.pjodd.se/hopglass/nodes.json')
+q.defer(d3.json, 'https://lublin.se/pjodd/gateway-01.mesh.pjodd.se/hopglass/graph.json')
 q.await(function (err, nodesjson, graphjson) {
   if (err) {
     document.getElementById('sumnodes').innerHTML = 'FAIL?'

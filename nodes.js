@@ -3,7 +3,7 @@
 // there is one, otherwise on val...
 
 var q = d3.queue()
-q.defer(d3.json, 'http://gateway-01.mesh.pjodd.se/hopglass/nodes.json')
+q.defer(d3.json, 'https://lublin.se/pjodd/gateway-01.mesh.pjodd.se/hopglass/nodes.json')
 q.await(function (err, nodesjson) {
   if (err) throw (err)
   main(nodesjson)
