@@ -5,7 +5,7 @@ ASSETS=d3.min.js d3-queue.min.js p.png
 
 BUILDDIR=build
 
-TARGET=gyro:web/pjodd/
+TARGET=steglits:web/pjodd/
 TESTTARGET=$(TARGET)/test/
 
 .PHONY: testdeploy deploy build dirs clean
