@@ -84,7 +84,7 @@ function main (nodesjson) {
         var valb = b[ordercol]
         // should we sort by repr(val) instead?
         var repr = columns[ordercol].repr
-        if (repr && ["desc"].includes(ordercol)) {
+        if (repr && ['desc'].includes(ordercol)) {
           vala = repr(vala)
           valb = repr(valb)
         }
