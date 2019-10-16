@@ -61,9 +61,9 @@ function main (nodesjson, graphjson) {
   }
 
   var force = d3.layout.force()
-      .gravity(0.02)
-      .charge(-110)
-      .linkDistance(70)
+      .gravity(0.017)
+      .charge(-150)
+      .linkDistance(60)
       .nodes(graph.nodes)
       .links(graph.links)
       .size([w, h])
