@@ -50,6 +50,17 @@ function main (nodesjson, graphjson) {
   var graph = graphjson.batadv
   document.getElementById('sumnodes').innerHTML = graph.nodes.length
 
+  // add links between our gws (listed in descs)
+  var gw01 = graph.nodes.findIndex(e => e.id == getByDesc('gw01'))
+  var gw05 = graph.nodes.findIndex(e => e.id == getByDesc('gw05'))
+  var gw06 = graph.nodes.findIndex(e => e.id == getByDesc('gw06'))
+  if (gw01 > -1 && gw05 > -1) {
+    graph.links.push({ source: gw01, target: gw05, type: "gws", tq: 1 })
+  }
+  if (gw05 > -1 && gw06 > -1) {
+    graph.links.push({ source: gw05, target: gw06, type: "gws", tq: 1 })
+  }
+
   var force = d3.layout.force()
       .gravity(0.02)
       .charge(-110)

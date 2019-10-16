@@ -146,3 +146,7 @@ function getdesc (id) {
   if (!id || !descs.hasOwnProperty(id)) return ''
   return descs[id]
 }
+
+function getByDesc (desc) {
+  return Object.keys(descs).find(id => descs[id] === desc) || ''
+}

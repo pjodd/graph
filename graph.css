@@ -56,6 +56,11 @@ line.link.wireless, .wireless {
   stroke: blue;
   color:  blue;
 }
+/* links added between our gateways */
+line.link.gws, .gws {
+  stroke: black;
+  color:  black;
+}
 
 .ontop {
   z-index: 255;
