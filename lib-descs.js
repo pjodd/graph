@@ -113,6 +113,8 @@ var descs = {
   'a0f3c1824ada': 'prosper.solvesborg.out',
 
   '6466b3c53d82': 'floyd',
+  'a0f3c1824b38': 'wombat',
+
   'a0f3c19698ce': 'damary',
   'a0f3c1824a98': 'jesusbaren',
 
