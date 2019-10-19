@@ -73,8 +73,8 @@ var descs = {
   '8416f92da9e6': 'carlings',
   'a0f3c1824c36': 'soffor&sängar',
   '8416f9ae6650': 'tritrg.h',
-  '18d6c72a0c6a': 'tritrg.netnod',
-
+  '18d6c72a0c6a': 'tritrg.netnod', // bortttagen?
+  'a0f3c1824c40': 'netnod',
   '18d6c72a1008': 'k.kapellgatan',
   '8416f9ae65f0': 'k.kapellplan',
 
