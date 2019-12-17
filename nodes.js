@@ -75,9 +75,21 @@ function main (nodesjson) {
       var ordercol = ev.target.dataset.key
       sortorders[ordercol] = !sortorders[ordercol]
       draw(nodes, ordercol)
+
+      var url = new URL(window.location.href)
+      url.searchParams.set("sort", ordercol)
+      url.searchParams.delete("desc")
+      if (sortorders[ordercol] == false) {
+        url.searchParams.set("desc", "")
+      }
+      window.history.replaceState("", "", url);
     })
 
     function draw (nodes, ordercol) {
+      if (!Object.keys(columns).includes(ordercol)) {
+        table.innerHTML = 'Bad sorting column. <a href="nodes.html">go back</a>'
+        return
+      }
       var d = sortorders[ordercol] ? -1 : 1
       nodes = nodes.sort(function (a, b) {
         var vala = a[ordercol]
@@ -132,7 +144,11 @@ function main (nodesjson) {
       })
     }
 
-    draw(nodes, 'lastseen')
+    var params = new URL(window.location.href).searchParams
+    var ordercol = params.get("sort") || 'lastseen'
+    sortorders[ordercol] = !params.has("desc")
+
+    draw(nodes, ordercol)
 
     table.appendChild(thead)
     table.appendChild(tbody)
