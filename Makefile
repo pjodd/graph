@@ -6,14 +6,14 @@ ASSETS=d3.min.js d3-queue.min.js p.png
 BUILDDIR=build
 
 TARGET=steglits:web/pjodd/
-TESTTARGET=$(TARGET)/test/
+TARGETDEV=$(TARGET)/dev/
 
-.PHONY: testdeploy deploy build dirs clean
-
-testdeploy: build
-	rsync -a --progress $(BUILDDIR)/ $(TESTTARGET)
+.PHONY: deploy deploy-live build dirs clean
 
 deploy: build
+	rsync -a --progress $(BUILDDIR)/ $(TARGETDEV)
+
+deploy-live: build
 	rsync -a --progress $(BUILDDIR)/ $(TARGET)
 
 build: dirs $(addprefix $(BUILDDIR)/,$(OBJS) $(ASSETS))
