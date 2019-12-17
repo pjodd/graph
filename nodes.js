@@ -99,9 +99,9 @@ function main (nodesjson) {
         tr.appendChild(th)
         var sortprefix = ''
         if (ordercol === column) {
-          sortprefix = '^ '
+          sortprefix = '▾ '
           if (sortorders[ordercol]) {
-            sortprefix = 'v '
+            sortprefix = '▴ '
           }
         }
         th.appendChild(document.createTextNode(sortprefix + column))
