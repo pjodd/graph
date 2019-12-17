@@ -88,6 +88,10 @@ function main (nodesjson) {
           vala = repr(vala)
           valb = repr(valb)
         }
+        // is inverted order more sensible?
+        if (['lastseen', 'firstseen'].includes(ordercol)) {
+          [vala, valb] = [valb, vala]
+        }
         return vala < valb ? d : d * -1
       })
 
