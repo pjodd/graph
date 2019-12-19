@@ -14,8 +14,10 @@ var descs = {
   '18d6c72a0cc4': 'quite',
 
   'a42bb0b426ec': 'mölletrg.nö',
-  'a0f3c1c4529a': 'mölletrg.nö.net',
-  '18d6c72a100a': 'mölletrg.sö',
+  
+  'a0f3c1c4529a': 'mölletrg.sö.0',
+  '8416f9e4546e': 'mölletrg.sö.1',
+  '18d6c72a100a': 'mölletrg.sö.ute',
 
   '18a6f7f04a06': 'i11.mölletrg.sö',
   'a0f3c19699d6': 'i11.mölletrg.sö.net',
