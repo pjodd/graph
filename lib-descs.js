@@ -33,10 +33,6 @@ var descs = {
   '18a6f7af71d4': 'leonard4',
   '18d6c729ff4a': 'leonard5',
 
-
-  'a0f3c19699c8': 'fisk.shp.a.1',
-  'a0f3c196982c': 'fisk.shp.a.2',
-
   '8416f92db85a': 'sofiel.canyon',
   '8416f92daa8e': 'fisk.beauty-r',
   'c025e9a84c8a': 'fisk.cykelson',
@@ -145,7 +141,10 @@ var descs = {
 
   'a0f3c19699be': 'viking',
 
+  '8416f9e45a90': 'mm.studio', //?
   'a0f3c19697fc': 'mm.1',
+  'a0f3c19699c8': 'mm.2', //foodc?
+  'a0f3c196982c': 'mm.3', //br?
 
   'a0f3c1824c84': 'teknikerg.uppl',
   'a0f3c1824c78': 'teknikerg',
