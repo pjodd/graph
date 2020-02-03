@@ -148,6 +148,8 @@ var descs = {
 
   'a0f3c1824c84': 'teknikerg.uppl',
   'a0f3c1824c78': 'teknikerg',
+  
+  '18a6f7f0528a': 'pjodderick',
 
   '': 'sentinel'
 }
