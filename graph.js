@@ -167,7 +167,7 @@ function main (nodesjson, graphjson) {
     .text(function (d) {
       if (!d.hasOwnProperty('node_id')) return
       var out = ''
-      var clients = getnodedata(d.node_id, 'statistics.clients')
+      var clients = getnodedata(d.node_id, 'statistics.clients.total')
       if (clients) {
         out += clients
         sumclients += clients

@@ -36,7 +36,7 @@ function main (nodesjson) {
     'firstseen':       { path: 'firstseen',
                          cssclass: 'right',
                          repr: (f) => prettyduration(Date.now() - Date.parse(f)) },
-    'clients':         { path: 'statistics.clients',
+    'clients':         { path: 'statistics.clients.total',
                          cssclass: 'right' },
     'loadavg':         { path: 'statistics.loadavg',
                          cssclass: 'center',
