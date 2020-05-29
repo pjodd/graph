@@ -21,8 +21,6 @@ function main (nodesjson) {
     // 'iface-tunnel': { path: 'nodeinfo.network.mesh.bat0.interfaces.tunnel' },
     'online':          { path: 'flags.online',
                          cssclass: 'center' },
-    'uplink':          { path: 'flags.uplink',
-                         cssclass: 'center' },
     // 'gateway': { path: 'statistics.gateway' },
     'iface-wireless':  { path: 'nodeinfo.network.mesh.bat0.interfaces.wireless',
                          cssclass: 'monospace center',
