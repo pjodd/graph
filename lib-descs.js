@@ -20,11 +20,11 @@ var descs = {
   '18d6c72a100a': 'mölletrg.sö.ute',
 
   '18a6f7f04a06': 'i11.mölletrg.sö',
+  '18a6f7f04eae': 'i11.mölletrg.sö.bounce',
   'a0f3c19699d6': 'i11.mölletrg.sö.net',
 
-  '18a6f7f04eae': 'kalle.net',
-  'a0f3c19695b0': 'kalle.slg',
-  'a0f3c18242c4': 'kalle.ig',
+  'a0f3c19695b0': 'fd.kalle.slg',
+  'a0f3c18242c4': 'fd.kalle.ig',
 
   '18d6c7453ec4': 'leonard0', // elvis
   'a0f3c1968c86': 'leonard1', // elvis
